@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.form-wrapper{
+    width: 100vw;
+    height: auto;
+    /* background-color: red; */
+    background-color: rgb(37, 40, 30);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.inputfield{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.genderRadiotitle{
+    color: white;
+}
+.form-container{
+    display: flex;
+    /* border: 2px solid yellow; */
+    border:5px solid rgb(231, 174, 82);
+    width: 50%;
+    justify-content: center;
+    background-color:black;
+    align-items: center;
+    
+}
+.form-heading{
+    color: white;
+}
+.labelHeading{
+    color: white;
+}
+.form-nameyear{
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    margin: 5px;
+}
+.form-branchSection{
+    border: 2px solid black;
+    width: 100%;
+    margin: 5px;
+}
+.form-emailContact{
+    border: 2px solid black;
+    width: 100%;
+    margin: 5px;
+    
+}
+.form-studentHosteler{
+    border: 2px solid black;
+    width: 100%;
+    margin: 5px;
+}
+.form-dob{
+    border: 2px solid black;
+    width: 100%;
+    margin: 5px;
+}
+.form-domain{
+    border: 2px solid black;
+    width: 100%;
+    margin: 5px;
+}
